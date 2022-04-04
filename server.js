@@ -12,6 +12,6 @@ let server = http.createServer(function (req, res) {
     res.end("Not Found");
   }
 });
-server.listen(3001, () => {
-  console.log("后端api接口服务器已经启动在3001端口上！");
+server.listen(3000, () => {
+  console.log("后端api接口服务器已经启动在3000端口上！");
 });
