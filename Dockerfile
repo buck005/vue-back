@@ -1,4 +1,4 @@
-FROM none
+FROM node
 LABEL name="vue-back"
 LABEL version="1.0"
 COPY . /app
